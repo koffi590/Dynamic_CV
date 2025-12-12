@@ -5,10 +5,17 @@ import MediaSection from './components/MediaSection.vue'
 import LanguageSection from './components/LanguageSection.vue'
 import SkillBar from './components/SkillBar.vue'
 import ExperienceItem from './components/ExperienceItem.vue'
+// import html2pdf from 'html2pdf.js'
+
+// const pdfGen = () => {
+//   const myCvSpa = document.getElementsByClassName('myCv');
+// html2pdf().from(myCvSpa).save('My_Vue_App_CV.pdf');
+// }
+
 </script>
 
 <template>
-  <div class="">
+  <div class="myCv">
     <div class="bg-gray-200 w-full flex flex-col items-center p-2 min-h-screen justify-center">
       <div
         class="bg-white min-h-screen p-10 w-full md:w-full lg:w-[60%] gap-20 flex flex-col items-center relative"
