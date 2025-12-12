@@ -22,13 +22,13 @@ import ExperienceItem from './components/ExperienceItem.vue'
       >
         <!-- Contours colorés de la page -->
         <div
-          class="hidden lg:block absolute -top-41 left-41 rotate-90 h-[30%] border-l-31 border-[#00959C]"
+          class="hidden lg:block absolute -top-45 left-45 rotate-90 h-[30%] border-l-31 border-[#00959C]"
         ></div>
         <div
           class="hidden lg:block absolute -top-0 right-0 h-[51%] border-l-40 border-[#00959C]"
         ></div>
         <div
-          class="hidden lg:block absolute -bottom-56 left-56 h-[40%] border-l-30 border-[#00959C] rotate-90"
+          class="hidden lg:block absolute -bottom-62 left-61 h-[40%] border-l-30 border-[#00959C] rotate-90"
         ></div>
 
         <!-- PHOTO DE PROFIL + NOM -->
@@ -65,7 +65,7 @@ import ExperienceItem from './components/ExperienceItem.vue'
                 <div class="p-4 hover:shadow-md leading-tight">
                   <!-- SOCIAL MEDIA -->
                   <h2
-                    class="text-xl font-black text-gray-700 tracking-wide font-poppins pl-9 name"
+                    class="text-lg md:text-xl font-black text-gray-700 leading-[1] tracking-wide font-poppins name pb-3 pl-4 md:pl-7"
                   >
                     PRO SKILLS
                   </h2>
