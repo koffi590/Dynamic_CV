@@ -84,3 +84,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  .neon-glow {
+    transition: all 0.3s ease;
+  }
+
+  .neon-glow:hover {
+    box-shadow: 0 0 15px #00eaff, 0 0 30px #00eaff, 0 0 45px #00eaff;
+    transform: scale(1.05);
+  }
+}

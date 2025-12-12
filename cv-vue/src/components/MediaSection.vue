@@ -1,7 +1,9 @@
 <template>
   <div class="p-4">
     <!-- SOCIAL MEDIA -->
-    <h2 class="text-xl font-black text-gray-700 leading-tight tracking-wide font-poppins pl-9 name">
+    <h2
+      class="text-xl font-black text-gray-700 leading-[0.5] tracking-wide font-poppins pl-9 name"
+    >
       SOCIAL MEDIA
     </h2>
     <div class="mb-6 relative border-l-2 border-[#00959C] h-3 pl-7">
@@ -21,11 +23,12 @@
             </svg>
           </span>
         </div>
-        <div class="w-full">
-          <p class="font-semibold text-gray-700">Facebook</p>
-          <p class="font-normal text-sm text-gray-700">@yourfacebook</p>
+        <div class="w-full leading-none">
+          <p class="font-semibold text-gray-700 font-poppins">Facebook</p>
+          <p class="font-normal text-sm text-gray-700 font-poppins">@yourfacebook</p>
         </div>
       </div>
+      <div class="h-2"> </div>
     </div>
 
     <!-- Twitter -->
@@ -41,11 +44,12 @@
             </svg>
           </span>
         </div>
-        <div class="w-full">
-          <p class="font-semibold text-gray-700">Twitter</p>
-          <p class="font-normal text-sm text-gray-700">@Yourtwitter</p>
+        <div class="w-full leading-none">
+          <p class="font-semibold text-gray-700 font-poppins">Twitter</p>
+          <p class="font-normal text-sm text-gray-700 font-poppins">@Yourtwitter</p>
         </div>
       </div>
+      <div class="h-2"> </div>
     </div>
     <!-- Instagram -->
     <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
@@ -60,13 +64,13 @@
             </svg>
           </span>
         </div>
-        <div class="w-full">
-          <p class="font-semibold text-gray-700">Instagram</p>
-          <p class="font-normal text-sm text-gray-700">@Yourinstagram</p>
+        <div class="w-full leading-none">
+          <p class="font-semibold text-gray-700 font-poppins">Instagram</p>
+          <p class="font-normal text-sm text-gray-700 font-poppins">@Yourinstagram</p>
         </div>
       </div>
     </div>
-    <div class="pt-4">
+    <div class="pt-3">
       <hr class="border-0 bg-[#00959C] w-[98%] h-[2px] mt-4" />
     </div>
   </div>

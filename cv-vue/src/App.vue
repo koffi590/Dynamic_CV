@@ -15,13 +15,13 @@ import ExperienceItem from './components/ExperienceItem.vue'
       >
         <!-- Contours colorés de la page -->
         <div
-          class="hidden lg:block absolute -top-43 left-43 rotate-90 h-[30%] border-l-23 border-[#00959C]"
+          class="hidden lg:block absolute -top-41 left-41 rotate-90 h-[30%] border-l-31 border-[#00959C]"
         ></div>
         <div
-          class="hidden lg:block absolute -top-0 right-0 h-[51%] border-l-24 border-[#00959C]"
+          class="hidden lg:block absolute -top-0 right-0 h-[51%] border-l-40 border-[#00959C]"
         ></div>
         <div
-          class="hidden lg:block absolute -bottom-59 left-58 h-[40%] border-l-24 border-[#00959C] rotate-90"
+          class="hidden lg:block absolute -bottom-56 left-56 h-[40%] border-l-30 border-[#00959C] rotate-90"
         ></div>
 
         <!-- PHOTO DE PROFIL + NOM -->
@@ -55,10 +55,10 @@ import ExperienceItem from './components/ExperienceItem.vue'
               </div>
 
               <div class="md:col-span-1">
-                <div class="p-4 hover:shadow-md">
+                <div class="p-4 hover:shadow-md leading-tight">
                   <!-- SOCIAL MEDIA -->
                   <h2
-                    class="text-xl font-black text-gray-700 leading-tight tracking-wide font-poppins pl-9 name"
+                    class="text-xl font-black text-gray-700 tracking-wide font-poppins pl-9 name"
                   >
                     PRO SKILLS
                   </h2>
@@ -70,10 +70,10 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
-                        <p class="font-semibold text-gray-700">DRAWING</p>
+                        <p class="font-semibold text-gray-700 font-poppins">DRAWING</p>
                         <SkillBar pourcentage="55" />
                       </div>
-                    </div>
+                    </div><br>
                   </div>
 
                   <!-- PHOTO -->
@@ -81,10 +81,10 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
-                        <p class="font-semibold text-gray-700">PHOTO</p>
+                        <p class="font-semibold text-gray-700 font-poppins">PHOTO</p>
                         <SkillBar pourcentage="70" />
                       </div>
-                    </div>
+                    </div><br>
                   </div>
 
                   <!-- COPYWRITE -->
@@ -92,20 +92,20 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
-                        <p class="font-semibold text-gray-700">COPYWRITE</p>
+                        <p class="font-semibold text-gray-700 font-poppins">COPYWRITE</p>
                         <SkillBar pourcentage="80" />
                       </div>
-                    </div>
+                    </div><br>
                   </div>
                   <!-- COMPUTERIZE -->
                   <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
                     <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
-                        <p class="font-semibold text-gray-700">COMPUTERIZE</p>
+                        <p class="font-semibold text-gray-700 font-poppins">COMPUTERIZE</p>
                         <SkillBar pourcentage="80" />
                       </div>
-                    </div>
+                    </div><br>
                   </div>
 
                   <!-- DESIGN -->
@@ -113,38 +113,116 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
-                        <p class="font-semibold text-gray-700">DESIGN</p>
+                        <p class="font-semibold text-gray-700 font-poppins">DESIGN</p>
                         <SkillBar pourcentage="50" />
                       </div>
-                    </div>
-                  </div>
-                  <div class="pt-4">
-                    <hr class="border-0 bg-[#00959C] w-[98%] h-[2px] mt-4" />
+                    </div><br>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- Colonne droite (prendre 2 colonnes, hauteur auto sur plusieurs lignes) -->
             <div class="md:col-span-2 bg-white pl-5 hover:shadow-md md:row-span-2">
               <div class="md:col-span-1">
                 <div class="p-4">
                   <h2
-                    class="text-xl font-black text-gray-700 leading-tight tracking-wide font-poppins pl-9 name"
+                    class="text-xl font-black text-gray-700 leading-[0.5] tracking-wide font-poppins pl-9 name"
                   >
                     EXPERIENCE
                   </h2>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C] py-2">
+                    <div class="absolute -left-1 -top-1 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                  </div>
                   <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
                     <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
-                        <ExperienceItem />
+                        <ExperienceItem
+                          -main-title="JOB POSITION"
+                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
+                    <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                    <div class="flex gap-4 items-center">
+                      <div class="w-full">
+                        <ExperienceItem
+                          -main-title="JOB POSITION"
+                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
+                    <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                    <div class="flex gap-4 items-center">
+                      <div class="w-full">
+                        <ExperienceItem
+                          -main-title="JOB POSITION"
+                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-5">
+                    <hr class="border-0 bg-[#00959C] w-[90%] h-[2px] mt-4" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="cols-span-2">
+                <div class="p-4">
+                  <h2
+                    class="text-xl font-black text-gray-700 leading-[0.5] tracking-wide font-poppins pl-9 name"
+                  >
+                    EXPERIENCE
+                  </h2>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C] py-2">
+                    <div class="absolute -left-1 -top-1 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                  </div>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
+                    <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                    <div class="flex gap-4 items-center">
+                      <div class="w-full">
+                        <ExperienceItem
+                          -main-title="JOB POSITION"
+                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
+                    <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                    <div class="flex gap-4 items-center">
+                      <div class="w-full">
+                        <ExperienceItem
+                          -main-title="JOB POSITION"
+                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-6 relative pl-7 border-l-2 border-[#00959C]">
+                    <div class="absolute -left-1 top-2 w-2 h-2 rounded-full bg-[#00959C]"></div>
+                    <div class="flex gap-4 items-center">
+                      <div class="w-full">
+                        <ExperienceItem
+                          -main-title="JOB POSITION"
+                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="cols-span-2"></div>
             </div>
           </div>
         </div>
