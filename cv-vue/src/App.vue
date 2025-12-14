@@ -197,8 +197,8 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
                         <ExperienceItem
-                          -main-title="JOB POSITION"
-                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -main-title="MASTER DEGREE"
+                          -sub-title="UNIVERSITY NAME 2020 | 2021"
                           -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
                         />
                       </div>
@@ -209,8 +209,8 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
                         <ExperienceItem
-                          -main-title="JOB POSITION"
-                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -main-title="MASTER DEGREE"
+                          -sub-title="UNIVERSITY NAME 2020 | 2021"
                           -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
                         />
                       </div>
@@ -221,8 +221,8 @@ import ExperienceItem from './components/ExperienceItem.vue'
                     <div class="flex gap-4 items-center">
                       <div class="w-full">
                         <ExperienceItem
-                          -main-title="JOB POSITION"
-                          -sub-title="COMPANY NAME 2020 | 2021"
+                          -main-title="MASTER DEGREE"
+                          -sub-title="UNIVERSITY NAME 2020 | 2021"
                           -description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"
                         />
                       </div>
